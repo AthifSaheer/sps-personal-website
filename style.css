@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 2000px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Acme', sans-serif;
+}
+
+.main-body {
+    width: 100%;
+    height: 607px;
+}
+
+.main-body img {
+    width: 100%;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgba(255, 151, 151, 0.986), rgba(183, 61, 253, 0.911));
+    position: fixed;
+    width: 100%;
+    color: white;
+    opacity: .7;
+    font-size: 18px;
+    z-index: 9;
+}
+
+.body-text {
+    position: relative;
+    margin-top: -30%;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.body-text h1 {
+    color: #ffff;
+    font-size: 70px;
+    font-family: 'Redressed', cursive;
+}
+
+.body-text {
+    color: rgb(235, 235, 235);
+}
+
+.body2 {
+    width: 100%;
+    height: 500px;
+}
+
+.about-heading {
+    color: rgb(30, 0, 112);
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+#myphoto {
+    margin-left: 70px;
+    width: 400px;
+    height: 420px;
+}
+
+#about-text {
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.829);
+    font-size: 18px;
+    font-family: 'Redressed', cursive;
+    line-height: 29px;
+    padding: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.body3 {
+    width: 100%;
+    height: 700px;
+    background: rgba(245, 253, 255, 0.767);
+}
+
+.skills-heading {
+    color: rgb(30, 0, 112);
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 90px;
+    font-weight: bold;
+}
+
+.bg-bar {
+    width: 50%;
+    height: 20px;
+    margin-left: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+.html{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(9, 0, 46);
+    color: white;
+    text-align: right;
+}
