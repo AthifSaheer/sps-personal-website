@@ -8,6 +8,9 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: 'Acme', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 
 .main-body {
     width: 100%;
@@ -77,34 +80,230 @@ body {
     font-family: 'Redressed', cursive;
     line-height: 29px;
     padding: 20px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .body3 {
     width: 100%;
-    height: 700px;
     background: rgba(245, 253, 255, 0.767);
 }
 
 .skills-heading {
     color: rgb(30, 0, 112);
     text-align: center;
+    justify-content: center;
     margin-top: 30px;
-    padding-top: 90px;
+    padding-top: 70px;
     font-weight: bold;
 }
 
-.bg-bar {
-    width: 50%;
-    height: 20px;
-    margin-left: 30px;
-    background-color: rgb(240, 240, 240);
+.main-box {
+    margin-top: 40px;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
-.html{
-    width: 30%;
-    height: 20px;
-    background-color: rgb(9, 0, 46);
-    color: white;
+.language {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sides {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+:root {
+    --bg-bar-bg-color: rgba(182, 182, 182, 0.377);
+    --height: 20px;
+    --margin-right: 10px;
+    --ft-bar-bg-color: rgba(6, 0, 63, 0.842);
+    --ft-bar-ft-color: rgb(255, 255, 255);
+}
+.bg-bar-1 {
+    background: var(--bg-bar-bg-color);
+    margin-right: var(--margin-right);
+    height: var(--height);
+    width: 100%;
+}
+
+.ft-bar-1 {
+    background: var(--ft-bar-bg-color);
+    color: var(--ft-bar-ft-color);
+    height: var(--height);
     text-align: right;
+    width: 90%;
+}
+.bg-bar-2 {
+    background: var(--bg-bar-bg-color);
+    margin-right: var(--margin-right);
+    height: var(--height);
+    width: 100%;
+}
+
+.ft-bar-2 {
+    background: var(--ft-bar-bg-color);
+    color: var(--ft-bar-ft-color);
+    height: var(--height);
+    text-align: right;
+    width: 50%;
+}
+.bg-bar-3 {
+    background: var(--bg-bar-bg-color);
+    margin-right: var(--margin-right);
+    height: var(--height);
+    width: 100%;
+}
+
+.ft-bar-3 {
+    background: var(--ft-bar-bg-color);
+    color: var(--ft-bar-ft-color);
+    height: var(--height);
+    text-align: right;
+    width: 50%;
+}
+.bg-bar-4 {
+    background: var(--bg-bar-bg-color);
+    margin-right: var(--margin-right);
+    height: var(--height);
+    width: 100%;
+}
+
+.ft-bar-4 {
+    background: var(--ft-bar-bg-color);
+    color: var(--ft-bar-ft-color);
+    height: var(--height);
+    text-align: right;
+    width: 60%;
+}
+
+.bg-bar-5 {
+    background: var(--bg-bar-bg-color);
+    margin-right: var(--margin-right);
+    height: var(--height);
+    width: 100%;
+}
+
+.ft-bar-5 {
+    background: var(--ft-bar-bg-color);
+    color: var(--ft-bar-ft-color);
+    height: var(--height);
+    text-align: right;
+    width: 50%;
+}
+.bg-bar-6 {
+    background: var(--bg-bar-bg-color);
+    margin-right: var(--margin-right);
+    height: var(--height);
+    width: 100%;
+}
+
+.ft-bar-6 {
+    background: var(--ft-bar-bg-color);
+    color: var(--ft-bar-ft-color);
+    height: var(--height);
+    text-align: right;
+    width: 60%;
+}
+
+.body4 {
+    width: 100%;
+    background: rgb(250, 250, 250);
+    height: 600px;
+}
+
+.body4 h1 {
+    color: rgb(30, 0, 112);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 70px;
+    font-weight: bold;
+}
+.body-4-box {
+    position: relative;
+    display: flex;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    height: 360px;
+    margin: 20px;
+}
+
+.fa-code {
+    color: rgb(0, 141, 235);
+    padding-top: 50px;
+    padding-left: 160px;
+}
+
+.content h3 {
+    color: rgb(0, 0, 0);
+    margin-top: 22px;
+    text-align: center;
+}
+
+.content p {
+    color: rgb(68, 68, 68);
+    margin-top: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fa-laptop-code {
+    color: rgb(235, 106, 0);
+    padding-top: 50px;
+    padding-left: 160px;
+}
+
+.fa-database {
+    color: rgb(235, 0, 110);
+    padding-top: 50px;
+    padding-left: 160px;
+}
+
+.body5 {
+    background: rgb(247, 247, 247);
+}
+
+.body5 h1 {
+    color: rgb(30, 0, 112);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+.body6 {
+    background-image: linear-gradient(to right, rgba(255, 151, 151, 0.986), rgba(183, 61, 253, 0.911));
+    height: 200px;
+}
+
+.body6 h4 {
+    color: rgb(30, 0, 112);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 39px;
+}
+
+.body6 i {
+    color: rgb(255, 255, 255);
+    margin-left: 430px;
+    margin-top: 9px;
+}
+
+.body6 p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 9px;
 }
