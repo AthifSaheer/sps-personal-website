@@ -1,10 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
-    width: 100%;
-    height: 2000px;
+    margin: 0;
+    padding: 0;
     background-color: rgb(255, 255, 255);
     font-family: 'Acme', sans-serif;
 }
@@ -19,6 +20,9 @@ a {
 
 .main-body img {
     width: 100%;
+    object-fit: cover;
+    object-position: fixed;
+    overflow: hidden;
 }
 
 .navbar {
@@ -26,7 +30,7 @@ a {
     position: fixed;
     width: 100%;
     color: white;
-    opacity: .7;
+    opacity: 1;
     font-size: 18px;
     z-index: 9;
 }
@@ -306,4 +310,10 @@ a {
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 9px;
+}
+
+/* main.html */
+
+.navbar-scroll {
+    max-height: 900px;
 }
