@@ -192,7 +192,7 @@ body {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-    color: rgb(0, 18, 97);
+    color: rgb(0, 18, 97)
     font-weight: bold;
     font-size: 40px;
 }
@@ -225,6 +225,7 @@ body {
 .footer-section i {
     text-align: center;
     color: rgb(54, 54, 54);
+    padding: 5px;
     /* padding-left: 350px; */
 }
 

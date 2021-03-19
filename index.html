@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./maincss.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png">
     <title>𝒜𝓉𝒽𝒾𝒻 𝒮𝒶𝒽𝑒𝑒𝓇</title>
@@ -163,7 +165,7 @@
                     <h1>Contact</h1>
                 </div>
                 <div class="col-md-12 col-12" id="contact-form-text-div">
-                    <form id="submit-form" class="col-12 col-md-6" action="https://script.google.com/macros/s/AKfycby7EKBmKQztD94c-PiiP9Mo-oNyPST4O-9HJR9g/exec" method="POST" >
+                    <form id="gform" class="col-12 col-md-6" action="">
                         <div class="form-group">
                             <label for="formGroupExampleInput">First Name</label>
                             <input name="firstname" type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" required>
@@ -179,9 +181,9 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" required"></textarea>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-outline-info btn-block">Send Message</button>
+                        <button name="btn" type="submit" class="btn btn-outline-info btn-block">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -197,43 +199,54 @@
                     <h1 class="footer-name">Athif Saheer</h1>
                 </div>
                 <div class="col-lg-12 col-12">
-                    <p><i>Do a little more each day than you think you possibly can.</i></p> <br>
+                    <p><i>
+                        <a href="https://github.com/AthifSaheer"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/lite_book/"><i class="fab fa-instagram"></i></a>
+                        <!-- <a href="https://www.youtube.com/channel/UCd3C-PtPHFdk4h51stHgIGQ"><i class="fab fa-youtube"></i></a> <br>  -->
+                        <a href="https://www.linkedin.com/in/athif-saheer-6a54ba1b6/"><i class="fab fa-linkedin"></i></a> <br> 
+                        Do a little more each day than you think you possibly can.</i></p> <br>
                 </div>
                 <div class="col-lg-12 col-12">
                     <p>© Copyright AthifSaheer. All Rights Reserved <br>    
                         Designed by <a href="https://athifsaheer.github.io/MyOgWeb/">Waterloocreations</a></p>
+                          
                 </div>
             </div>
         </div>
     </section>
     
     <script>
-       /* $("#submit-form").submit((e)=>{
+        $("#gform").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"",
-                data:$("#submit-form").serialize(),
+                url:"https://script.google.com/macros/s/AKfycbzmbgBdx321LBvlqX0_ADb1oayG4GZlPCcScacFlGDY62h3LU4/exec",
+                data:$("#gform").serialize(),
                 method:"post",
                 success:function (response){
                     alert("Form submitted successfully")
                     window.location.reload()
-                    //window.location.href="https://google.com"
+                   // window.location.href="https://google.com"
                 },
                 error:function (err){
                     alert("Something Error")
     
                 }
             })
-        })*/
+        })
     </script>
 
     <!-- <script src="./assets/js/script.js"></script> -->
 
     
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 
     
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.js"></script> -->
+
+
 </body>
 </html>
