@@ -166,11 +166,11 @@
                     <form id="submit-form" class="col-12 col-md-6" action="https://script.google.com/macros/s/AKfycby7EKBmKQztD94c-PiiP9Mo-oNyPST4O-9HJR9g/exec" method="POST" >
                         <div class="form-group">
                             <label for="formGroupExampleInput">First Name</label>
-                            <input name="firstname" type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" pattern="[a-zA-Z]{4}">
+                            <input name="firstname" type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" required>
                         </div>
                         <div class="form-group">
                             <label for="formGroupExampleInput">Last Name</label>
-                            <input name="lastname" type="text" class="form-control" id="formGroupExampleInput" placeholder="Last Name" pattern="[a-zA-Z]{4}">
+                            <input name="lastname" type="text" class="form-control" id="formGroupExampleInput" placeholder="Last Name" required>
                         </div>
                         <div class="form-group">
                           <label for="exampleInputEmail1">Email address</label>
@@ -179,7 +179,7 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" pattern="[a-zA-Z0-9]{4}"></textarea>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" required"></textarea>
                         </div>
                         <button type="submit" class="btn btn-outline-info btn-block">Send Message</button>
                     </form>
