@@ -168,11 +168,11 @@
                     <form id="gform" class="col-12 col-md-6" action="">
                         <div class="form-group">
                             <label for="formGroupExampleInput">First Name</label>
-                            <input name="firstname" type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" required>
+                            <input name="firstname" type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" pattern="[A-Za-z]+" >
                         </div>
                         <div class="form-group">
                             <label for="formGroupExampleInput">Last Name</label>
-                            <input name="lastname" type="text" class="form-control" id="formGroupExampleInput" placeholder="Last Name" required>
+                            <input name="lastname" type="text" class="form-control" id="formGroupExampleInput" placeholder="Last Name" pattern="[A-Za-z]+">
                         </div>
                         <div class="form-group">
                           <label for="exampleInputEmail1">Email address</label>
@@ -181,7 +181,7 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" required></textarea>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" pattern="[A-Za-z0-9]+"></textarea>
                         </div>
                         <button name="btn" type="submit" class="btn btn-outline-info btn-block">Send Message</button>
                     </form>
