@@ -233,3 +233,24 @@ body {
     text-align: center;
     color: rgb(119, 119, 119);
 }
+
+#fname-warng-txt-letters {
+    visibility: hidden;
+}
+#fname-warng-txt-number {
+    visibility: hidden;
+}
+#fname-warng-txt-required {
+    visibility: hidden;
+}
+
+#email-warng-txt {
+    visibility: hidden;
+}
+#email-warng-txt-required {
+    visibility: hidden;
+}
+
+#messg-wrng-txt {
+    visibility: hidden;
+}
